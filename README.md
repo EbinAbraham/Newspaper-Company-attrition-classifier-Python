@@ -8,13 +8,13 @@ Newspaper Company attrition classifier-Python
 
 <h3>Overview</h3>
 
-The objective of this project is to determine which customers will churn. Thus the company can predict the number of subscribers and also provide offers to the customers who may churn so as to retain them. The dataset was obtained from a private repository hence not uploading the dataset.
+<p>The objective of this project is to determine which customers will churn. Thus the company can predict the number of subscribers and also provide offers to the customers who may churn so as to retain them. The dataset was obtained from a private repository hence not uploading the dataset.</p>
 
 ==================================================================================
 
 <h3>Dataset</h3>
 
-The dataset contains 5 text files which were merged together to obtain the final dataset on which the analysis was done. After merging there were 27 columns, details of this is given below.
+<p>The dataset contains 5 text files which were merged together to obtain the final dataset on which the analysis was done. After merging there were 27 columns, details of this is given below.</p>
 
 
 
@@ -54,26 +54,28 @@ The dataset contains 5 text files which were merged together to obtain the final
 
 <h3>Proccessing</h3>
 
-Initially individual text required cleaning of data to appropriate columns. Missing value were handled using mode, median and creating new category for unknow. Outliers were capped for obtaining good solution. Time stamp data were converted to ordinal for processing. Moreover categorical variables were label encoded.
+<p>Initially individual text required cleaning of data to appropriate columns. Missing value were handled using mode, median and creating new category for unknow. Outliers were capped for obtaining good solution. Time stamp data were converted to ordinal for processing. Moreover categorical variables were label encoded.</p>
 
 ==================================================================================
 
 <h3>Result</h3>
 
-Two models were created logistic regression and random forest. Based on the output provided random forest classifier was adjudged the better model. The details are as follows
+<p>Two models were created logistic regression and random forest. Based on the output provided random forest classifier was adjudged the better model. The details are as follows:</p><br>
 
-__Confusion Matrix__
+__Confusion Matrix__<br>
 
-[[3396   19]
+[[3396   19]<br>
 
-[  33 1343]]
+ [  33 1343]]<br>
 
-| __Metric__              | Value              |
-| ----------------------- | ------------------ |
-| Cross Validation Score  | 0.988310746868714  |
-| Testing Accuracy        | 0.9891463160091839 |
-| F1 Score                | 0.9810080350620891 |
-| AUC                     | 0.98522687612789   |
-| Average Precision Score | 0.9692898417262321 |
+
+
+| __Metric__              | Value                         |
+| ----------------------- | ----------------------------- |
+| Cross Validation Score  | 98.83%   (0.988310746868714)  |
+| Testing Accuracy        | 98.91%   (0.9891463160091839) |
+| F1 Score                | 0.9810080350620891            |
+| AUC                     | 0.98522687612789              |
+| Average Precision Score | 0.9692898417262321            |
 
 ==================================================================================
